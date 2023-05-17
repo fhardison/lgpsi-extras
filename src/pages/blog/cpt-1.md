@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/Post.astro
+
 title: "Chapter 1"
 ---
 

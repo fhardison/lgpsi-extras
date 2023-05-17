@@ -1,4 +1,7 @@
 ---
+import settings from "../data/settings.js";
+
+
 export interface Props {
   post: any;
 }
@@ -6,7 +9,7 @@ export interface Props {
 const { post } = Astro.props;
 ---
 
-    <li><a href={post.url}>
+    <li><a href={`${settings.url}${post.url}`}>
     <h1 class="title">{post.title}</h1>
     <p>{post.description}</p>
     </a></li>
