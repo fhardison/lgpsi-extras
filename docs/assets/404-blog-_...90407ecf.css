@@ -1,0 +1,1 @@
+:root{--container-width: 960px;--container-padding: 1rem}html,body{margin:0;padding:0;font-family:Open Sans,Arial,Helvetica,sans-serif}.container:where(.astro-FUMMAAKX){margin:0 auto;max-width:var(--container-width, 960px);padding:0 var(--container-padding, 1rem)}
